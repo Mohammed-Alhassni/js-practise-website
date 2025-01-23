@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register Page</title>
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <body>
+
+
+        <header>
+            <h2 class="oneThird">Practice Website</h2>
+            <div class="oneThird"></div>
+            <nav class="oneThird">
+                <a href="/index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </nav>
+        </header>
+        
+        <main>
+            <form>
+                <label  for="regUname">Username</label><br>
+                <input id="regUname" class="formItems"><br>
+                <label  for="regEmail">Email</label><br>
+                <input id="regEmail" class="formItems"><br>
+                <label  for="regPass">Password</label><br>
+                <input id="regPass" class="formItems" type="password"><br>
+                <label  for="regRePass">Re-enter Password</label><br>
+                <input id="regRePass" class="formItems" type="password"><br>
+                <button id="regBtn" class="formItems" type="button" onClick="newUser()">Submit</button>
+                <p id="errorDisplay"></p>
+                <p id="passEquality"></p>
+            </form>
+        </main>
+
+        <footer>
+            This site made by Mohammed to practice 
+        </footer>
+
+        <script src="/scripts/register.js"></script>
+    </body>
+</html>
